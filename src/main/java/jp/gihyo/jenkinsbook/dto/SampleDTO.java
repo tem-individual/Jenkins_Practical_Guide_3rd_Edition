@@ -24,9 +24,10 @@ public class SampleDTO implements Serializable {
      * @param firstName first name of the user
      * @param lastName last name of the user
      */
-    public SampleDTO(final String firstName, final String lastName) {
-        this.setFirstName(firstName);
-        this.setLastName(lastName);
+
+    public SampleDTO(final String fName, final String lName) {
+        this.setFirstName(fName);
+        this.setLastName(lName);
         this.setMessage("Hello");
     }
 
@@ -58,16 +59,16 @@ public class SampleDTO implements Serializable {
      * Set first name of the user.
      * @param firstName first name of the user
      */
-    public final void setFirstName(final String firstName) {
-        this.firstName = firstName;
+    public final void setFirstName(final String FName) {
+        this.firstName = FName;
     }
 
     /**
      * Set last name of the user.
      * @param lastName last name of the user
      */
-    public final void setLastName(final String lastName) {
-        this.lastName = lastName;
+    public final void setLastName(final String LName) {
+        this.lastName = LName;
     }
 
     /**
